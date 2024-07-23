@@ -1,0 +1,43 @@
+{
+  "name": "jwt-lite",
+  "version": "1.0.0",
+  "description": "A lightweight npm library to handle jwt tokens",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugamkuber/jwt-lite.git"
+  },
+  "keywords": [
+    "javascript",
+    "jwt",
+    "typescript",
+    "auth",
+    "type-safe",
+    "jwt-token",
+    "jwt-authentication",
+    "json-web-token"
+  ],
+  "author": "sugam kuber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sugamkuber/jwt-lite/issues"
+  },
+  "homepage": "https://github.com/sugamkuber/jwt-lite#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "typescript": "^5.5.4"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testEnvironment": "node"
+  }
+}
