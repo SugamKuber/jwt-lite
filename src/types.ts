@@ -9,11 +9,6 @@ export interface JwtHeader {
   typ: 'JWT';
 }
 
-export interface JwtPayload {
-  id: string | number;
-  exp?: number;
-}
-
 export interface JwtEncodingOptions {
   ttl?: number;
   aud?: string;
@@ -24,4 +19,5 @@ export interface JwtEncodingOptions {
 export interface JwtPayload extends JwtEncodingOptions {
   id: string | number;
   exp?: number;
+  [key: string]: any;
 }
