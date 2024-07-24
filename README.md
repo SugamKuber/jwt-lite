@@ -4,6 +4,8 @@ jwt-lite is a lightweight npm library for handling JWT tokens in JavaScript and 
 
 jwt-lite offers a streamlined approach to JWT implementation, making it an ideal choice for developers seeking a straightforward and reliable JWT solution.
 
+### [DEMO LINK](https://jwt-lite.vercel.app/)
+- The above source code is in "demo" branch
 ## Functions 
 
 1. *encode()*: Creates a new JWT token by combining a unique identifier, custom payload, and optional parameters, returning a signed string token.
