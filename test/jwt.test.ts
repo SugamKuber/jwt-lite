@@ -1,5 +1,5 @@
-import { JWT } from '../src';
-import { JwtEncodingOptions } from '../src/types';
+import { JWT } from '../';
+import { JwtEncodingOptions } from '../types';
 
 const secret = 'check_github.com/intelliLog';
 const jwt = new JWT(secret);

@@ -1,13 +1,19 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",
     "target": "ES6",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true
   },
-  "include": ["src"]
+  "include": [
+    "index.ts",
+    "types.ts",
+    "jwt/**/*.ts",
+    "utils/**/*.ts"
+  ]
 }

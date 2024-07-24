@@ -1,8 +1,9 @@
 {
-  "name": "jwt-lite",
+  "name": "jwt-lite-2024",
   "version": "1.0.0",
   "description": "A lightweight npm library to handle jwt tokens",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"
@@ -39,5 +40,8 @@
       "^.+\\.tsx?$": "ts-jest"
     },
     "testEnvironment": "node"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
